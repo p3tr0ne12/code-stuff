@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class Pausemenu : MonoBehaviour
 {
-    
+    public string menu;
+
     public void Quitgame()
     {
-        SceneManager.LoadScene(mainScene);
+        SceneManager.LoadScene(menu);
     }
 }
